@@ -4,7 +4,6 @@
   "description": "Project to automate Paceart",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
     "crypto-js": "^4.0.0",
     "log4js": "^6.3.0",
     "protractor": "^5.4.4",
