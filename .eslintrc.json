@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "protractor"
+  ],
+  "extends": "eslint:recommended",
+  "rules": {
+    "curly": "error",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "protractor/missing-perform": "error"
+  },
+  "overrides": [
+    {
+      "files": [
+        "README.md"
+      ],
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ],
+  "globals": {
+    "browser": "readonly",
+    "element": "readonly",
+    "by": "readonly",
+    "__filename": "readonly",
+    "process": "readonly",
+    "$": "readonly",
+    "$$": "readonly"
+  }
+}

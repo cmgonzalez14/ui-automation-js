@@ -1,0 +1,7 @@
+node_modules
+reports
+document
+logs
+downloads/*.[pdf | xlsx]*
+user.env
+package-lock.json
