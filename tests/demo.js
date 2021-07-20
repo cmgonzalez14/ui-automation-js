@@ -7,4 +7,8 @@ describe('Protractor Demo App', function() {
     it('should have a title', function() {
       expect(browser.getTitle()).toEqual('Google');
     });
+
+    it('Fede stevens testing', function() {
+      expect(browser.getTitle()).toEqual('Lsafasfas');
+    });
 });
